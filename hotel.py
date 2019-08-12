@@ -26,7 +26,7 @@ def hotel_dict(obj):
 global hotelList
 hotelList = []
 
-hotelList.append(Hotel("1","Shangri-La Hotel","SLA","No.66, Renmin Road, Zhongshan, 116001 Dalian, China","5 Star",1000,time.strftime("%d/%m/%Y")))
+hotelList.append(Hotel("1","Shangri-La Hotel","SLA","No.66, Renmin Road, Zhongshan, 116001 Dalian, China","5 Star",1001,time.strftime("%d/%m/%Y")))
 hotelList.append(Hotel("2","Bayshore Hotel Dalian","BHD","No.32 C1 Sector, Xinghaiwan Square, Shahekou, 116001 Dalian, China","5 Star",1000,time.strftime("%d/%m/%Y")))
 hotelList.append(Hotel("3","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
 hotelList.append(Hotel("4","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
