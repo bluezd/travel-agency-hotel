@@ -28,14 +28,10 @@ hotelList = []
 
 hotelList.append(Hotel("1","Shangri-La Hotel","SLA","No.66, Renmin Road, Zhongshan, 116001 Dalian, China","5 Star",1001,time.strftime("%d/%m/%Y")))
 hotelList.append(Hotel("2","Bayshore Hotel Dalian","BHD","No.32 C1 Sector, Xinghaiwan Square, Shahekou, 116001 Dalian, China","5 Star",1000,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("3","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("4","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("5","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("6","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("7","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("8","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("9","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
-hotelList.append(Hotel("10","深圳罗湖智选假日酒店","HLD","罗湖区桂园北路6号","准三星",400,time.strftime("%d/%m/%Y")))
+hotelList.append(Hotel("3","Kerry Hotel","KH","38 Hung Luen Road, Hung Hom Bay, Kowloon City District, Hong Kong, China","5 star",1140,time.strftime("%d/%m/%Y")))
+hotelList.append(Hotel("4","Hotel ICON","HI","17 Science Museum Road, Yau Tsim Mong District, Hong Kong, China","5 star",1180,time.strftime("%d/%m/%Y")))
+hotelList.append(Hotel("5","The Ritz-Carlton Hong Kong","RC"," International Commerce Centre, 1 Austin Road West, Yau Tsim Mong District, Hong Kong, China","5 star",3000,time.strftime("%d/%m/%Y")))
+hotelList.append(Hotel("6","Grand Hyatt Hong Kong","GH", "1 Harbour Road, Hong Kong, China","5 star",1885,time.strftime("%d/%m/%Y")))
 
 app = Flask(__name__)
 CORS(app)
